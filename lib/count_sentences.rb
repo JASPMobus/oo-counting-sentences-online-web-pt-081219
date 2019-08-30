@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    
+    broken = self.split(/\?.!/)
   end
 end
