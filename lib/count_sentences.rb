@@ -17,7 +17,9 @@ class String
   def count_sentences
     broken = self.split(/\?.!/)
     
-    
+    broken.each do |maybe_sentence|
+      
+    end
     
     broken.length
   end
